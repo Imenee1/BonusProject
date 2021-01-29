@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_720832135a834e8d971d6b65f99dfa6d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+
+</head>
+<body>
+
+            <div class="folium-map" id="map_720832135a834e8d971d6b65f99dfa6d" ></div>
+
+</body>
+<script>
+
+            var map_720832135a834e8d971d6b65f99dfa6d = L.map(
+                "map_720832135a834e8d971d6b65f99dfa6d",
+                {
+                    center: [33.56739898, -7.612941500000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+
+
+
+
+            var tile_layer_de07b4b7692043ebaa8e859b394ccb35 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var marker_b8b6caa2124f488e96dde347c0f5e5bb = L.marker(
+                [33.5740131, -7.6364336999999995],
+                {}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var icon_d101f651f4b74677b7c0b2dc6ad78524 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8b6caa2124f488e96dde347c0f5e5bb.setIcon(icon_d101f651f4b74677b7c0b2dc6ad78524);
+
+
+        var popup_fd501417e18341cfb16a70509165a48d = L.popup({"maxWidth": "100%"});
+
+
+            var html_89db90d1011e4b51ba2bf01e206bf208 = $(`<div id="html_89db90d1011e4b51ba2bf01e206bf208" style="width: 100.0%; height: 100.0%;">Casablanca : 0</div>`)[0];
+            popup_fd501417e18341cfb16a70509165a48d.setContent(html_89db90d1011e4b51ba2bf01e206bf208);
+
+
+        marker_b8b6caa2124f488e96dde347c0f5e5bb.bindPopup(popup_fd501417e18341cfb16a70509165a48d)
+        ;
+
+
+
+
+            var circle_marker_0674d63ce4804acea7ac4a21819bb6dd = L.circleMarker(
+                [33.5740131, -7.6364336999999995],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var marker_120b7eb4603a44ae80518965ec32c2b9 = L.marker(
+                [33.5842131, -7.6004337],
+                {}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var icon_f4a64993d8ce4878aeb6d26a7556b8ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_120b7eb4603a44ae80518965ec32c2b9.setIcon(icon_f4a64993d8ce4878aeb6d26a7556b8ab);
+
+
+        var popup_9af75269ad474bbbbcf96462589ad199 = L.popup({"maxWidth": "100%"});
+
+
+            var html_82e964c171de4b2cabc7ba25c0d42bd0 = $(`<div id="html_82e964c171de4b2cabc7ba25c0d42bd0" style="width: 100.0%; height: 100.0%;">Casablanca : 11</div>`)[0];
+            popup_9af75269ad474bbbbcf96462589ad199.setContent(html_82e964c171de4b2cabc7ba25c0d42bd0);
+
+
+        marker_120b7eb4603a44ae80518965ec32c2b9.bindPopup(popup_9af75269ad474bbbbcf96462589ad199)
+        ;
+
+
+
+
+            var circle_marker_8ab81dd1b8eb48208204db78c6b60975 = L.circleMarker(
+                [33.5842131, -7.6004337],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11, "stroke": true, "weight": 3}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var marker_0b4d1c49c9654bcba506555407bf1fca = L.marker(
+                [33.5943131, -7.6324337],
+                {}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var icon_55b5072f8d6748afa0d5195c4eaf9ea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0b4d1c49c9654bcba506555407bf1fca.setIcon(icon_55b5072f8d6748afa0d5195c4eaf9ea3);
+
+
+        var popup_8f7d078d787b4bef925eb5d0c4deabb1 = L.popup({"maxWidth": "100%"});
+
+
+            var html_c7a0989f0b434200b3f948fc7b21381c = $(`<div id="html_c7a0989f0b434200b3f948fc7b21381c" style="width: 100.0%; height: 100.0%;">Casablanca : 20</div>`)[0];
+            popup_8f7d078d787b4bef925eb5d0c4deabb1.setContent(html_c7a0989f0b434200b3f948fc7b21381c);
+
+
+        marker_0b4d1c49c9654bcba506555407bf1fca.bindPopup(popup_8f7d078d787b4bef925eb5d0c4deabb1)
+        ;
+
+
+
+
+            var circle_marker_43067cbb5f0d41fda95b4e09c868ddcb = L.circleMarker(
+                [33.5943131, -7.6324337],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var marker_b597610002f444e989915a5d7d40d9d4 = L.marker(
+                [33.5245131, -7.6334337],
+                {}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var icon_28a291374f7c4463b2e57e0dd68d3d90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b597610002f444e989915a5d7d40d9d4.setIcon(icon_28a291374f7c4463b2e57e0dd68d3d90);
+
+
+        var popup_c4954d0e1d744142aca8bcce260f4917 = L.popup({"maxWidth": "100%"});
+
+
+            var html_367f9520f0a34b65a90fefcf70001ab9 = $(`<div id="html_367f9520f0a34b65a90fefcf70001ab9" style="width: 100.0%; height: 100.0%;">Casablanca : 80</div>`)[0];
+            popup_c4954d0e1d744142aca8bcce260f4917.setContent(html_367f9520f0a34b65a90fefcf70001ab9);
+
+
+        marker_b597610002f444e989915a5d7d40d9d4.bindPopup(popup_c4954d0e1d744142aca8bcce260f4917)
+        ;
+
+
+
+
+            var circle_marker_6d646f758dbe4c7c8424901d46516f41 = L.circleMarker(
+                [33.5245131, -7.6334337],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 80, "stroke": true, "weight": 3}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var marker_fc53cdc032154fde8a593fb8c88202b0 = L.marker(
+                [33.5599425, -7.5619727],
+                {}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+
+            var icon_3a7cfbf0db194a64a5d8802078ad2882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fc53cdc032154fde8a593fb8c88202b0.setIcon(icon_3a7cfbf0db194a64a5d8802078ad2882);
+
+
+        var popup_15f4b04e0b6e462ebaf726fd7a72681e = L.popup({"maxWidth": "100%"});
+
+
+            var html_7c42949edd654a818d38c8e303a8f43a = $(`<div id="html_7c42949edd654a818d38c8e303a8f43a" style="width: 100.0%; height: 100.0%;">Casablanca : 110</div>`)[0];
+            popup_15f4b04e0b6e462ebaf726fd7a72681e.setContent(html_7c42949edd654a818d38c8e303a8f43a);
+
+
+        marker_fc53cdc032154fde8a593fb8c88202b0.bindPopup(popup_15f4b04e0b6e462ebaf726fd7a72681e)
+        ;
+
+
+
+
+            var circle_marker_2e25d730fe7a4518acebad4746b290fe = L.circleMarker(
+                [33.5599425, -7.5619727],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 110, "stroke": true, "weight": 3}
+            ).addTo(map_720832135a834e8d971d6b65f99dfa6d);
+
+</script>
